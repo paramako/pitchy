@@ -3,6 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/pitchy)](https://crates.io/crates/pitchy)
 [![Docs.rs](https://docs.rs/pitchy/badge.svg)](https://docs.rs/pitchy)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Changelog](https://img.shields.io/badge/changelog-md-blue)](CHANGELOG.md)
 
 **Minimalistic Rust library for working with musical notes, frequencies (Hz), MIDI numbers, and pitch operations like transposition and octave shifts.**
 
