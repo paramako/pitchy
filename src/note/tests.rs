@@ -3,7 +3,7 @@ use core::str::FromStr;
 use crate::Note;
 
 /// (midi number, note, octave, frequency)
-const NOTE_DATASETS: [(u8, &'static str, i8, f64); 6] = [
+const NOTE_DATASETS: [(u8, &str, i8, f64); 6] = [
     (57, "A3", 3, 220.00),
     (69, "A4", 4, 440.0),
     (66, "F#4", 4, 369.99),
