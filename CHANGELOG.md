@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-## [0.1.0] – 2025-05-17
+## [0.1.1] – 2025-05-17
 
 🎉 Initial release of `pitchy`.
 
@@ -26,3 +26,5 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `.name()` *(requires `std`)*
 - Full support for `no_std` via `--no-default-features --features libm`
 - Friendly error reporting via `NoteError`
+
+## [0.1.0] – YANKED
