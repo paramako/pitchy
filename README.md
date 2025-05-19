@@ -33,6 +33,7 @@ Or, to use in `no_std` mode:
 [dependencies.pitchy]
 version = "0.1"
 default-features = false
+features = ["libm"]
 ```
 
 ---
@@ -59,7 +60,10 @@ assert_eq!(up.midi_number(), Some(64)); // E4
 ### Convert from MIDI Number
 ```rust
 let note = Note::try_from_midi_number(60).unwrap();
-assert_eq!(note.frequency(), 261.625565); // ≈ C4
+let actual = note.frequency(); // 261.6255653005986
+let expected = 261.625565; // C4
+let epsilon = 1e-6; // 0.000001
+assert!((actual - expected).abs() < epsilon);
 ```
 
 ### Get Note Parts (no_std friendly)
