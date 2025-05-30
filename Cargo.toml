@@ -1,9 +1,9 @@
 [package]
 name = "pitchy"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2024"
 authors = ["paramako <paramako@gmail.com>"]
-description = "Minimalistic Rust library for working with musical notes, frequencies (Hz), MIDI numbers, and pitch operations like transposition and octave shifts."
+description = "Minimalistic Rust library for working with frequencies (Hz), MIDI numbers, musical notes, and pitch operations like transposition and octave shifts."
 license = "MIT"
 keywords = ["audio", "music", "midi", "pitch", "notes"]
 categories = ["no-std"]
