@@ -6,6 +6,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
+## [0.1.2] – 2025-05-30
+
+### 🛠 Fixes
+
+- Corrected broken code examples in the README
+
 ## [0.1.1] – 2025-05-17
 
 🎉 Initial release of `pitchy`.
