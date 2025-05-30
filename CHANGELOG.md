@@ -6,6 +6,29 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
+## [0.2.0] – 2025-05-18
+
+### ⚠️ Breaking Changes
+
+- Introduced a new split between symbolic and frequency representations:
+  - `Pitch`: frequency-based structure for audio computations
+  - `Note`: symbolic structure (letter + accidental + octave)
+- Parsing note strings like `"C#4"` now uses `Pitch::from_str` instead of `Note::from_str`
+- Transposition functionality moved from `Note` to `Pitch` to better reflect their roles
+- Unified error handling under `PitchyError` with new variants
+
+### ✨ Changes
+
+- Added `NoteLetter` and `Accidental` types for expressive symbolic note modeling
+- Implemented `TryFrom<Pitch>` for `Note` and `TryFrom<Note>` for `Pitch` for converting between representations
+- Richer module- and struct-level documentation
+
+## [0.1.2] – 2025-05-30
+
+### 🛠 Fixes
+
+- Corrected broken code examples in the README
+
 ## [0.1.1] – 2025-05-17
 
 🎉 Initial release of `pitchy`.
